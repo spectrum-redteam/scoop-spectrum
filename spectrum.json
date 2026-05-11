@@ -1,11 +1,11 @@
 {
-    "version": "1.35.5",
+    "version": "1.35.18",
     "description": "Autonomous Cyber Reasoning System - Red Team & Blue Team AI agents",
     "homepage": "https://github.com/spectrum-redteam/spectrum-project",
     "license": "MIT",
     "depends": "python",
-    "url": "https://files.pythonhosted.org/packages/5d/f8/00eace7c8354f320d7a2e09b67527d9c79eaf88a8a6782ba63d74b6a2528/spectrum_security-1.35.5-py3-none-any.whl",
-    "hash": "767494aa5289d0f2f16201b69ff9574a90423ebdba51d1d8e22697b3e1c05c65"
+    "url": "https://files.pythonhosted.org/packages/26/14/993bd4b5a01de0d2270564ffcb8ee5901c24b4072875271777620b9777d8/spectrum_security-1.35.18-py3-none-any.whl",
+    "hash": "4d3dc1d66b7160aea45f66bbaae0b01682ec38b47effaec295906568071ef279"
     "pre_install": [
         "pip install flask gradio rich requests"
     ],
