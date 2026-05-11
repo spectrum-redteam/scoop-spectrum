@@ -1,0 +1,27 @@
+{
+    "version": "1.35.0",
+    "description": "Autonomous Cyber Reasoning System - Red Team & Blue Team AI agents",
+    "homepage": "https://github.com/spectrum-redteam/spectrum-project",
+    "license": "MIT",
+    "depends": "python",
+    "url": "https://files.pythonhosted.org/packages/cd/32/c69d4fac56ef3eb4202536468ec43ffa64585d15257fabb746ce79d15515/spectrum_security-1.35.0-py3-none-any.whl",
+    "hash": "a98ea448fbc54321a0502e21e88366eb4a76338321961c8812fa97d6d6231fec",
+    "pre_install": [
+        "pip install flask gradio rich requests"
+    ],
+    "installer": {
+        "script": [
+            "pip install --no-deps $dir\\spectrum_security-1.35.0-py3-none-any.whl"
+        ]
+    },
+    "bin": [
+        [
+            "spectrum.bat",
+            "spectrum"
+        ]
+    ],
+    "post_install": [
+        "echo '@echo off' > $dir\\spectrum.bat",
+        "echo 'python -m spectrum.main %*' >> $dir\\spectrum.bat"
+    ]
+}
